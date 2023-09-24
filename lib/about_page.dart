@@ -37,7 +37,7 @@ class AboutPage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              'Aplikasi ini adalah contoh aplikasi Flutter sederhana yang digunakan untuk demonstrasi.',
+              'Aplikasi ini adalah contoh aplikasi Flutter sederhana yang telah mengimplementasikan route, login, side menu, dan local disk. Aplikasi ini saya dedikasikan untuk tugas praktikum. Saya juga dedikasikan aplikasi ini untuk asprak asprak tercinta',
               style: TextStyle(fontSize: 18),
               textAlign: TextAlign.center,
             ),
@@ -57,7 +57,7 @@ class AboutPage extends StatelessWidget {
                 Icon(Icons.email, size: 30, color: Colors.blue),
                 const SizedBox(width: 10),
                 Text(
-                  'Email: example@email.com',
+                  'Email: muhammad.farrisi@mhs.unsoed.ac.id',
                   style: TextStyle(fontSize: 18),
                 ),
               ],
@@ -68,7 +68,7 @@ class AboutPage extends StatelessWidget {
                 Icon(Icons.phone, size: 30, color: Colors.blue),
                 const SizedBox(width: 10),
                 Text(
-                  'Telepon: +1234567890',
+                  'Telepon: +6285747931816',
                   style: TextStyle(fontSize: 18),
                 ),
               ],

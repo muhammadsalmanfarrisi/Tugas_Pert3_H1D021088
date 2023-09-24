@@ -80,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
                     if (_usernameController.text == 'admin' &&
                         _passwordController.text == 'admin') {
                       _saveUsername();
-                      _showDialog('Anda Berhasil Login', const HomePage());
+                      _showDialog('Selamat, Anda Berhasil Login', const HomePage());
                     } else {
                       _showDialog(
                           'Username dan Password Salah', const LoginPage());

@@ -17,7 +17,8 @@ class Sidemenu extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CircleAvatar(
-                    backgroundColor: Colors.white, // Warna latar belakang foto profil
+                    backgroundColor:
+                        Colors.white, // Warna latar belakang foto profil
                     radius: 40,
                     child: Icon(
                       Icons.person,
@@ -27,14 +28,14 @@ class Sidemenu extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   Text(
-                    'John Doe',
+                    'Salman',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
                     ),
                   ),
                   Text(
-                    'john.doe@email.com',
+                    'muhammad.farrisi@mhs.unsoed.ac.id',
                     style: TextStyle(
                       color: Colors.white,
                     ),
@@ -43,7 +44,8 @@ class Sidemenu extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.home, color: Colors.white), // Warna ikon
+              leading:
+                  const Icon(Icons.home, color: Colors.white), // Warna ikon
               title: const Text(
                 'Home',
                 style: TextStyle(
@@ -59,7 +61,8 @@ class Sidemenu extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.info, color: Colors.white), // Warna ikon
+              leading:
+                  const Icon(Icons.info, color: Colors.white), // Warna ikon
               title: const Text(
                 'About',
                 style: TextStyle(
